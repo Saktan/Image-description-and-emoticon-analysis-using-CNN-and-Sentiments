@@ -1,4 +1,4 @@
-# Image-Captioning-using-CNN-with-LSTM
+# Image description and emoticon analysis using CNN and Sentiments
 
 In this , we have used CNN with LSTM as our model for predicting caption on a given image set. In variation to previous implementations, we have introduced an emoji in our caption to make it look more attractive and social. Firstly, we processed the image through pre-trained model VGG16 and mapped the output with decoder containing different layers of LSTM. The decoder then results in the output in the form of text. After getting the text, we applied sentimental analysis to our text which results in output as a sentiment. These sentiments are then mapped with emojis to get the caption with emoji. The dataset we used here is Flickr 8k. The result shows that the model performs very well.
 
